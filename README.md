@@ -5,9 +5,9 @@ trie implementation to get optimized URL set from a large list of URLs
 https://en.wikipedia.org/wiki/Trie
 
 # Prerequisites
-- A file containing list of URL Spaces, each URL separated by new line
-For e.g. :
+- A file containing list of URL Spaces, each URL separated by new line. For e.g. :
 
+```
 /abc.php
 /barracuda_notes.txt
 /bot
@@ -30,8 +30,9 @@ For e.g. :
 /d/e/f/
 /d/e/f/g
 /d/
-
+```
 Output:
+```
 Optimized URLs: $VAR1 = [
           '/bot/*',
           '/ext-5.0.0/build/*',
@@ -40,3 +41,4 @@ Optimized URLs: $VAR1 = [
           '/z/z/*',
           '/d/*'
         ];
+```
