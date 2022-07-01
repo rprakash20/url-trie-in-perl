@@ -9,15 +9,15 @@ https://en.wikipedia.org/wiki/Trie
 
 ```
 /abc.php
-/barracuda_notes.txt
+/test_notes.txt
 /bot
 /bot/
 /bot/pages/
 /bot/pages/page1.html
 /bot/pages/page2.html
-/ext-5.0.0/build/examples/app/nested-loading/resources/json/products.json
-/ext-5.0.0/build/examples/calendar/index.html
-/ext-5.0.0/build/examples/charts-kitchensink/
+/test-5.0.0/build/examples/app/nested-loading/resources/json/products.json
+/test-5.0.0/build/examples/calendar/index.html
+/test-5.0.0/build/examples/charts-kitchensink/
 /tmp/a/b/ab.php
 /tmp/c/d/r.html
 /tmp/a/c/q.php
@@ -35,7 +35,7 @@ Output:
 ```
 Optimized URLs: $VAR1 = [
           '/bot/*',
-          '/ext-5.0.0/build/*',
+          '/test-5.0.0/build/*',
           '/tmp/*',
           '/a/*',
           '/z/z/*',
